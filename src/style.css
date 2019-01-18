@@ -1,0 +1,30 @@
+.card-img-top {
+	max-height: 358px;
+}
+
+.will-watch__container {
+	position: fixed;
+}
+
+@media (max-width: 991px) {
+
+	.card-img-top {
+		max-height: 100%;
+	}
+}
+
+@media (max-width: 767px) {
+
+	.will-watch__container {
+		position: static;
+	}
+
+	.will-watch {
+		order: 1;
+		margin-bottom: 25px;
+	}
+
+	.movie-list {
+		order: 2;
+	}
+}
